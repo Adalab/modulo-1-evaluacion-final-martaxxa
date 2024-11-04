@@ -1,23 +1,91 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Título</title>
-
-    <link rel="stylesheet" href="./scss/main.scss" />
-    <link rel="icon" href="./images/favicon.png" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Evaluación módulo 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./scss/main.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   </head>
-
   <body>
-   
-    <header>
-      <h1>Título</h1>
+    <header class="header">
+      <div class="menu-hamburguesa">
+        <a href="https://adalab.es/">
+          <img class="img-hamburguesa" src="./images/ico-menu.svg" alt="Menú hamburgesa">
+        </a>
+      </div>
+      <div class="main-title">
+        <h1 class="anonymous-proxy">ANONYMOUS PROXY</h1>
+        <p class="subtitle">In hac habitasse platea dictumst.</p>
+      </div>
+      <button class="ico_scroll_down">
+        <img src="./images/ico-scroll-down.svg" alt="Flecha header">
+      </button>
     </header>
-    
     <main>
-      Aquí va tu ejercicio
+      <div class="white_section">
+        <p class="Insomnia-tips" style="color: #8ccbea;">
+          Insomnia Tips
+        </p>
+        <h2 class="second_title">
+          Looking Through A Window
+        </h2>
+        <p class="second_text">Donec accumsan, nulla ut volupat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamos semper sodales rutrum.</p>
+        <a href="https://adalab.es/" class="button_go">
+          <button class="Go">Go</button>
+        </a>
+      </div>
+      <div class="blue_section">
+        <h2 class="box_title">3 Reasons To Purchase</h2>
+        <container class="box">
+          <h3>Ut sed metus</h3>
+          <p class="body_text_box">Lorem ipsum dolor sit amet, consecteur.</p>
+        </container>
+        <container class="box">
+          <h3>Curabitur ac erat</h3>
+          <p class="body_text_box">Mauris mattis urna quis lorem molestie.</p>
+        </container>
+        <container class="box">
+          <h3>Morbi dictum</h3>
+          <p class="body_text_box">Aliquam in dolor et dolor tincidunt.</p>
+        </container>
+        <a href="https://adalab.es/" class="button_more_reasons">
+          <button class="more_reasons">More reasons</button>
+        </a>
+      </div>
+      <footer class="footer_section">
+        <button class="ico_arrow">
+          <img src="./images/ico-arrow.svg" alt="Flecha main-footer">
+        </button>
+        <nav class="nav_footer">
+          <ul class="nav-footer_menu">
+            <li class="nav-footer_list">
+              <a class="nav-footer_link" href="https://adalab.es/">ARTICLES</a>
+              <a class="nav-footer_link" href="https://adalab.es/">BOOKS</a>
+              <a class="nav-footer_link" href="https://adalab.es/">EVENTS</a>
+              <a class="nav-footer_link" href="https://adalab.es/">REASONS</a>
+              <a class="nav-footer_link" href="https://adalab.es/">TIPS</a>
+            </li>
+          </ul>
+          <ul class="nav-footer_menu">
+            <li class="nav-footer_list">
+              <a class="nav-footer_link" href="https://adalab.es/">TWITTER</a>
+              <a class="nav-footer_link" href="https://adalab.es/">INSTAGRAM</a>
+              <a class="nav-footer_link" href="https://adalab.es/">MASTODON.SOCIAL</a>
+            </li>
+          </ul>
+          <div class="footer_final">
+            <p>&copy;2022</p>
+            <p>we<em class="icon_footer_heart">❤︎</em>
+              components</p>
+          </div>
+        </nav>
+      </footer>
     </main>
-
   </body>
 </html>
