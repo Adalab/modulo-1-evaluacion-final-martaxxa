@@ -17,26 +17,30 @@
       border: none;
       position: relative;
       top: -40px;
+      :hover {
+        animation: rotar360 2s;
+      }
     }
-  
+
+    .nav-footer_link {
+      list-style-type: none;
+      display: block;
+      padding-top: 0px;
+      padding-bottom: 5px;
+    }
     .nav-footer_menu1 {
       list-style-type: none;
       display: block;
       padding-top: 0px;
-      padding-bottom: 25px;
+      padding-bottom: 20px;
     }
-  
     .nav-footer_menu2 {
       list-style-type: none;
       display: block;
       padding-top: 0px;
-      padding-bottom: 25px;
+      padding-bottom: 20px;
     }
-  
-    .nav-footer_list {
-      margin-bottom: 10px;
-    }
-  
+
     .nav-footer_link {
       font-family: "Roboto", sans-serif;
       font-weight: 300;

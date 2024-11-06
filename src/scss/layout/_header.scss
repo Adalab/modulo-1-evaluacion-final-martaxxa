@@ -1,16 +1,4 @@
-.menu-hamburguesa {
-    display: flex;
-    background-color: #0271bc;
-    padding: 5px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    @media (width > 768px) {
-      padding: 10px;
-    }
-  }
-  
-  .main-title {
+ .main-title {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,4 +55,8 @@
         padding-inline: 14px;
         margin: 15px;
         border: none;
+        cursor: pointer;
+        :hover {
+          animation: rotar360 2s;
+        }
       }

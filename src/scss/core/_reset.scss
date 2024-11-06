@@ -10,3 +10,24 @@
     font-weight: 300;
     font-style: normal;
   }
+
+  .menu-hamburguesa {
+    display: flex;
+    background-color: #0271bc;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    @media (width > 768px) {
+      padding: 10px;
+    }
+  }
+
+  @keyframes rotar360 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
