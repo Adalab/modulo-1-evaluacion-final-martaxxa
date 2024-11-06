@@ -1,0 +1,70 @@
+.menu-hamburguesa {
+    display: flex;
+    background-color: #0271bc;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    @media (width > 768px) {
+      padding: 10px;
+    }
+  }
+  
+  .main-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    background-image: url("../images/cover.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @media (width > 768px) {
+      height: auto;
+      padding-bottom: 35px;
+    } }
+  
+    .anonymous-proxy{
+      text-align: center;
+      width: 300px;
+      height: auto;
+      font-family: "Roboto Slab", serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 42px;
+      margin-top: 300px;
+      @media (width > 768px) {
+        font-size: 80px;
+        width: 500px;
+      @media (width > 1280px) {
+        font-size: 100px;
+        width: 700px;
+      }}
+    }
+  
+    .subtitle {
+      font-family: "Roboto", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 16px;
+      padding: 10px;
+      text-align: center;
+      @media (width > 768px) {
+        font-size: 24px;
+        width: 300px;
+      @media (width > 1280px) {
+        width: 500px;
+      } }
+    }
+  
+    .ico_scroll_down {
+        border-radius: 50%;
+        background-color: white;
+        border-color: none;
+        padding-block: 13px;
+        padding-inline: 14px;
+        margin: 15px;
+        border: none;
+      }
